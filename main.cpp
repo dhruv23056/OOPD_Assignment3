@@ -54,8 +54,7 @@ public:
 
     
     void inorder() {
-        inorder(root);
-        
+        inorder(root); 
     }
 
     void inorder(Node<T>* current_node) {
