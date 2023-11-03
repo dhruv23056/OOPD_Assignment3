@@ -1,0 +1,32 @@
+Quaternary Search Tree:
+
+    This code implements a Quaternary Search Tree (QST) in C++. A Quaternary Search Tree is a variant of a binary search tree where each node has up to four children instead of the usual two in a binary tree. The elements are distributed among the children based on their values. This data structure allows for efficient searching, insertion, and deletion of elements.
+
+Introduction:
+    A Quaternary Search Tree (QST) is a tree data structure in which each node can have up to four children. The distribution of elements among these children is based on their values. A QST can be used to store a set of elements and provides efficient searching, insertion, and deletion operations.
+
+Features:
+    Insertion: You can insert elements into the QST using the insert method. The tree will automatically distribute elements among its children based on their values.
+
+    Deletion: The deletenode method allows you to delete a node with a specific key. If the key to be deleted has no children, the node is removed. If it has children, it is replaced with its successor or predecessor, and the successor or predecessor is removed.
+
+    Traversals: The code supports three types of tree traversals: pre-order, post-order, and in-order. These traversal methods are available to explore the tree's structure and elements
+
+Usage
+Installation:
+    You need a C++ compiler to run this code. You can use g++ or any other C++ compiler.
+
+Compilation:
+    To compile the code, execute the following command in your terminal:
+    g++ -o quaternary_search_tree quaternary_search_tree.cpp
+
+Running:
+    Run the compiled executable with the following command:
+    ./quaternary_search_tree
+
+you can choose from the following options:
+Insert a node.
+Delete a node.
+Perform a pre-order traversal.
+Perform a post-order traversal.
+Exit the program.
